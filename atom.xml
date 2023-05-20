@@ -6,7 +6,7 @@
   <link href="https://butterfly.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://butterfly.xingchencloud.top/"/>
-  <updated>2023-05-08T07:29:51.312Z</updated>
+  <updated>2023-05-20T13:21:54.225Z</updated>
   <id>https://butterfly.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CloudFlare WARP使用教程</title>
+    <link href="https://butterfly.xingchencloud.top/2023/05/20/CloudFlare-WARP%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/"/>
+    <id>https://butterfly.xingchencloud.top/2023/05/20/CloudFlare-WARP%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
+    <published>2023-05-20T12:28:22.000Z</published>
+    <updated>2023-05-20T13:21:54.225Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Cloudflare-WARP加速Github使用教程&quot;&gt;&lt;a href=&quot;#Cloudflare-WARP加速Github使用教程&quot; class=&quot;headerlink&quot; title=&quot;Cloudflare</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Moon halo简谱+歌词</title>
@@ -494,31 +519,6 @@
     
     
     <category term="软件教程" scheme="https://butterfly.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过KMS38激活Windows</title>
-    <link href="https://butterfly.xingchencloud.top/2022/07/07/%E9%80%9A%E8%BF%87KMS38%E6%BF%80%E6%B4%BBWindows/"/>
-    <id>https://butterfly.xingchencloud.top/2022/07/07/%E9%80%9A%E8%BF%87KMS38%E6%BF%80%E6%B4%BBWindows/</id>
-    <published>2022-07-07T07:19:15.000Z</published>
-    <updated>2023-03-24T04:17:48.441Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;对于Windows来说，这么多年以来，自从Windows</summary>
-        
-      
-    
-    
-    
-    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
