@@ -6,7 +6,7 @@
   <link href="https://butterfly.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://butterfly.xingchencloud.top/"/>
-  <updated>2023-05-20T13:21:54.225Z</updated>
+  <updated>2023-05-26T23:59:33.408Z</updated>
   <id>https://butterfly.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博客加入多条镜像分流节点</title>
+    <link href="https://butterfly.xingchencloud.top/2023/05/27/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%85%A5%E5%A4%9A%E6%9D%A1%E9%95%9C%E5%83%8F%E5%88%86%E6%B5%81%E8%8A%82%E7%82%B9/"/>
+    <id>https://butterfly.xingchencloud.top/2023/05/27/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%85%A5%E5%A4%9A%E6%9D%A1%E9%95%9C%E5%83%8F%E5%88%86%E6%B5%81%E8%8A%82%E7%82%B9/</id>
+    <published>2023-05-26T23:53:29.000Z</published>
+    <updated>2023-05-26T23:59:33.408Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;详细&quot;&gt;&lt;a href=&quot;#详细&quot; class=&quot;headerlink&quot; title=&quot;详细&quot;&gt;&lt;/a&gt;详细&lt;/h1&gt;&lt;p&gt;为优化博客部分地区使用体验，现加入以下节点分流，那个快用哪个：&lt;/p&gt;
+&lt;p&gt;目前线路（2023-05-27）&lt;br&gt;新增线路1：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="公告" scheme="https://butterfly.xingchencloud.top/categories/%E5%85%AC%E5%91%8A/"/>
+    
+    
+    <category term="公告" scheme="https://butterfly.xingchencloud.top/tags/%E5%85%AC%E5%91%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>CloudFlare WARP使用教程</title>
@@ -494,31 +520,6 @@
     
     
     <category term="Linux教程" scheme="https://butterfly.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>百度网盘破解限速汇总</title>
-    <link href="https://butterfly.xingchencloud.top/2022/08/12/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%A0%B4%E8%A7%A3%E9%99%90%E9%80%9F%E6%B1%87%E6%80%BB/"/>
-    <id>https://butterfly.xingchencloud.top/2022/08/12/%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E7%A0%B4%E8%A7%A3%E9%99%90%E9%80%9F%E6%B1%87%E6%80%BB/</id>
-    <published>2022-08-12T14:22:24.000Z</published>
-    <updated>2023-04-10T12:57:32.459Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;淦！百度网盘！&quot;&gt;&lt;a href=&quot;#淦！百度网盘！&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件教程" scheme="https://butterfly.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="软件教程" scheme="https://butterfly.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
