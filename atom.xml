@@ -6,7 +6,7 @@
   <link href="https://butterfly.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://butterfly.xingchencloud.top/"/>
-  <updated>2023-05-26T23:59:33.408Z</updated>
+  <updated>2023-06-03T02:03:53.204Z</updated>
   <id>https://butterfly.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>newbing-ai镜像开放使用</title>
+    <link href="https://butterfly.xingchencloud.top/2023/06/03/newbing-ai%E9%95%9C%E5%83%8F%E5%BC%80%E6%94%BE%E4%BD%BF%E7%94%A8/"/>
+    <id>https://butterfly.xingchencloud.top/2023/06/03/newbing-ai%E9%95%9C%E5%83%8F%E5%BC%80%E6%94%BE%E4%BD%BF%E7%94%A8/</id>
+    <published>2023-06-03T01:49:19.000Z</published>
+    <updated>2023-06-03T02:03:53.204Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;访问我的newbing镜像&quot;&gt;&lt;a href=&quot;#访问我的newbing镜像&quot; class=&quot;headerlink&quot; title=&quot;访问我的newbing镜像&quot;&gt;&lt;/a&gt;访问我的newbing镜像&lt;/h1&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="技术教程" scheme="https://butterfly.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>博客加入多条镜像分流节点</title>
@@ -494,32 +519,6 @@
     
     
     <category term="技术教程" scheme="https://butterfly.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Centos安装hexo</title>
-    <link href="https://butterfly.xingchencloud.top/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/"/>
-    <id>https://butterfly.xingchencloud.top/2022/08/22/Centos%E5%AE%89%E8%A3%85hexo/</id>
-    <published>2022-08-22T07:56:01.000Z</published>
-    <updated>2023-02-18T10:33:58.818Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;hexo文档：&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;https://hexo.io/zh-cn/&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;1、安装Git&quot;&gt;&lt;a href=&quot;#1、安装Git&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Linux教程" scheme="https://butterfly.xingchencloud.top/categories/Linux%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Linux教程" scheme="https://butterfly.xingchencloud.top/tags/Linux%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
