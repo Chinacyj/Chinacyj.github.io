@@ -1,227 +1,387 @@
 
 <!DOCTYPE html>
-<html lang="zh-CN" class="loading">
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>满天繁星のblog - 肥宅喵</title>
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="google" content="notranslate" />
-    <meta name="keywords" content="Fechin,"> 
-    <meta name="description" content="Code every day.&lt;br /&gt;错过了满天繁星，可以期待日落余晖。,"> 
-    <meta name="author" content="太子"> 
-    <link rel="alternative" href="atom.xml" title="满天繁星のblog" type="application/atom+xml"> 
-    <link rel="icon" href="/img/favicon.png"> 
-    
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8" />
+        <title>满天繁星のblog</title>
+        <meta name="author" content="太子" />
+        <meta name="description" content="Code every day.<br />错过了满天繁星，可以期待日落余晖。" />
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <link rel="icon" href="/images/avatar.jpg" />
+        <script src="https://cdn.staticfile.org/vue/3.3.4/vue.global.prod.min.js"></script>
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/6.4.0/css/all.min.css" />
+<link rel="stylesheet" href="/css/fonts.min.css" />
+<script> const mixins = {}; </script>
 
-    
-    
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="满天繁星のblog - 肥宅喵"/>
-    <meta name="twitter:description" content="Code every day.&lt;br /&gt;错过了满天繁星，可以期待日落余晖。,"/>
-    
-    
-    
-    
-    <meta property="og:site_name" content="满天繁星のblog"/>
-    <meta property="og:type" content="object"/>
-    <meta property="og:title" content="满天繁星のblog - 肥宅喵"/>
-    <meta property="og:description" content="Code every day.&lt;br /&gt;错过了满天繁星，可以期待日落余晖。,"/>
-    
-<link rel="stylesheet" href="/css/diaspora.css">
-
-    <script>window.searchDbPath = "/search.xml";</script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body class="loading">
-    <span id="config-title" style="display:none">满天繁星のblog</span>
-    <div id="loader"></div>
-    <div class="nav">
-    <ul id="menu-menu" class="menu">
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="//" title="首页" target="_blank" rel="noopener">首页</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/categories/" title="分类" target="_blank" rel="noopener">分类</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/tags/" title="标签" target="_blank" rel="noopener">标签</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/archives/" title="归档" target="_blank" rel="noopener">归档</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/about/" title="关于" target="_blank" rel="noopener">关于</a>
-        </li>
-        
-        <li class="pview menu-item menu-item-type-post_type menu-item-object-page">
-            <a href="/link/" title="友链" target="_blank" rel="noopener">友链</a>
-        </li>
-        
-    </ul>
-	<span class="target"></span>
-	<center>
-	<div class="hitokoto">
-		<span class="typed" id="hitokoto" data-st="true"></span>
-	</div>
-	</center>
-	
-	<p class="footerlinks">
-		<a href="#" class="iconfont icon-null"></a>
-		
-            <a href="/" title="facebook" class="iconfont icon-facebook" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="twitter" class="iconfont icon-twitter" target="_blank" rel="noopener"> </a>
-        
-            <a href="https://github.com/Chinacy/" title="github" class="iconfont icon-github" target="_blank" rel="noopener"> </a>
-        
-            <a href="/" title="wechat" class="iconfont icon-wechat" target="_blank" rel="noopener"> </a>
-        
-            <a href="mailto:2490300271@qq.com" title="email" class="iconfont icon-email" target="_blank" rel="noopener"> </a>
-        
-		<a href="#" class="iconfont icon-null"></a>
-	</p>
-	
-    <p id="copyright">
-        &copy; 2023 太子.
-        <span> | </span>Powered by <a href="https://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
-        <span> | </span>Theme <a href="https://github.com/Fechin/hexo-theme-diaspora" title="Diaspora" target="_blank" rel="noopener">Diaspora</a> by Fechin
-		
-    </p>
-</div>
-
-<div id="container">
-    
-<div id="screen">
-    <div id="mark">
-        <div class="layer" data-depth="0.4">
-            <img src="/img/welcome-cover.jpg" id="cover" crossorigin="anonymous" width="1920" height="1080">
-        </div>
-    </div>
-    <div id="vibrant">
-        <svg viewbox="0 0 2880 1620" height="100%" preserveaspectratio="xMaxYMax slice">
-            <polygon opacity="0.7" points="2000,1620 0,1620 0,0 600,0 "/>
-        </svg>
-        <div></div>
-    </div>
-    <div id="header">
-        <div>
-            <a class="image-logo" href="/"></a>
-			
-            <div class="iconfont icon-menu switchmenu"></div>
-        </div>
-    </div>
-    
-    <div id="post0">
-        <p>八月 12, 2023</p>
-        <h2><a href="/2023/08/12/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F/" title="游戏" class="posttitle">游戏</a></h2>
-        <p class="summary">在我的理解中什么才是一款好的游戏，我认为不一定需要有好的画质，以前第一款接触到的非常让人有感触的游戏叫《第一棵树》...</p>
-    </div>
-    
-</div>
-
-    <div id="primary">
-        
-<div class="post">
-    <a href="/2021/01/24/hello-world/" title="Hello World">
-        <img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.j7Bw19HA9uWHkX0nf_JlkQHaEK?pid=ImgDet&rs=1" class="cover" width="680" height="440">
-    </a>
-    <div class="else">
-        <p>一月 24, 2021</p>
-        <h3><a href="/2021/01/24/hello-world/" title="Hello World" class="posttitle">Hello World</a></h3>
-        <p>Hexo初始化原文（留恋）：Welcome to Hexo! This is your very first post. Check documentat...</p>
-    </div>
-</div>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 
 
-    </div>
-    
-</div>
-<div id="preview"></div>
+<script src="https://cdn.staticfile.org/highlight.js/11.8.0/highlight.min.js"></script>
+<script src="https://cdn.staticfile.org/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js"></script>
+<link
+    rel="stylesheet"
+    href="https://cdn.staticfile.org/highlight.js/11.8.0/styles/github.min.css"
+/>
+<script src="/js/lib/highlight.js"></script>
 
 
 
-</body>
-
-<script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="/js/lib/preview.js"></script>
 
 
-<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
-<script src="/js/plugin.js"></script>
-<script src="/js/typed.js"></script>
-<script src="/js/diaspora.js"></script>
 
 
-<link rel="stylesheet" href="/photoswipe/photoswipe.css">
-<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
 
+<script src="/js/lib/home.js"></script>
 
-<script src="/photoswipe/photoswipe.min.js"></script>
-<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+<link rel="stylesheet" href="/css/main.css" />
 
-
-<!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-            <div class="pswp__top-bar">
-                <!--  Controls are self-explanatory. Order can be changed. -->
-                <div class="pswp__counter"></div>
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                      <div class="pswp__preloader__cut">
-                        <div class="pswp__preloader__donut"></div>
-                      </div>
+    <meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="满天繁星のblog" type="application/atom+xml">
+</head>
+    <body>
+        <div id="layout">
+            <transition name="fade">
+                <div id="loading" v-show="loading">
+                    <div id="loading-circle">
+                        <h2>LOADING</h2>
+                        <p>加载过慢请开启缓存 浏览器默认开启</p>
+                        <img src="/images/loading.gif" />
                     </div>
                 </div>
+            </transition>
+            <div id="menu" :class="{ hidden: hiddenMenu, 'menu-color': menuColor}">
+    <nav id="desktop-menu">
+        <a class="title" href="/">
+            <span>满天繁星のBLOG</span>
+        </a>
+        
+        <a href="/">
+            <i class="fa-solid fa-house fa-fw"></i>
+            <span>&ensp;主页</span>
+        </a>
+        
+        <a href="/about">
+            <i class="fa-solid fa-id-card fa-fw"></i>
+            <span>&ensp;关于</span>
+        </a>
+        
+        <a href="/archives">
+            <i class="fa-solid fa-box-archive fa-fw"></i>
+            <span>&ensp;归档</span>
+        </a>
+        
+        <a href="/categories">
+            <i class="fa-solid fa-bookmark fa-fw"></i>
+            <span>&ensp;标签</span>
+        </a>
+        
+        <a href="/tags">
+            <i class="fa-solid fa-tags fa-fw"></i>
+            <span>&ensp;分类</span>
+        </a>
+        
+    </nav>
+    <nav id="mobile-menu">
+        <div class="title" @click="showMenuItems = !showMenuItems">
+            <i class="fa-solid fa-bars fa-fw"></i>
+            <span>&emsp;满天繁星のBLOG</span>
+        </div>
+        <transition name="slide">
+            <div class="items" v-show="showMenuItems">
+                
+                <a href="/">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-house fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">主页</div>
+                    </div>
+                </a>
+                
+                <a href="/about">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-id-card fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">关于</div>
+                    </div>
+                </a>
+                
+                <a href="/archives">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-box-archive fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
+                    </div>
+                </a>
+                
+                <a href="/categories">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-bookmark fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">标签</div>
+                    </div>
+                </a>
+                
+                <a href="/tags">
+                    <div class="item">
+                        <div style="min-width: 20px; max-width: 50px; width: 10%">
+                            <i class="fa-solid fa-tags fa-fw"></i>
+                        </div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">分类</div>
+                    </div>
+                </a>
+                
             </div>
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+        </transition>
+    </nav>
+</div>
+<transition name="fade">
+    <div id="menu-curtain" @click="showMenuItems = !showMenuItems" v-show="showMenuItems"></div>
+</transition>
+
+            <div id="main" :class="loading ? 'into-enter-from': 'into-enter-active'">
+                <div id="home-head">
+    <div id="home-background" ref="homeBackground" data-images="/images/background.jpg"></div>
+    <div id="home-info" @click="homeClick">
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="info">
+            <div class="wrap">
+                <h1>满天繁星のblog</h1>
+                <h3>我是~肥宅~喵</h3>
+                <h5>Code every day.&lt;br /&gt;错过了满天繁星，可以期待日落余晖。</h5>
             </div>
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
+        </span>
+    </div>
+</div>
+<div id="home-posts-wrap" true ref="homePostsWrap">
+    <div id="home-posts">
+        
+
+<div class="post">
+    <a href="/2023/08/13/%E6%8E%A2%E7%B4%A2/">
+        <h2 class="post-title">探索</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/%E7%94%9F%E6%B4%BB/">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                生活
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2023/8/13
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>在我的理解中什么才是一款好的游戏，我认为不一定需要有好的画质，以前第一款接触到的非常让人有感触的游戏叫《第一棵树》，英文名叫《The First Tree》，画质非常的拉跨。</p>
+<p>一款游戏怎样才能让人有感触呢？我觉得应该要贴近生活，《艾提芬奇的记忆》从一个女孩的视角讲述了他们家族的许多人，通过周围的场景来回忆，来了解他们。</p>
+<p>Molly：我太饿了，我从床上坐起，走向我老鼠宠物的笼子，我拿起宠物吃剩下的食物放进嘴里面，那一晚我吃了很多东西，牙膏，不知名果子，变成猫吃掉小鸟，变成猫头鹰吃掉兔子，变成怪兽吃掉人，最后我吃掉了自己。</p>
+<p>Barbara：我依靠我的尖叫成为了一个童星，16岁以后我的事业开始下滑无人问津，我的尖叫也没有当年，这一晚我的粉丝假扮了一场入室杀人情景，我依旧没有喊出我得以成名的尖叫，最后他们杀了我，我也喊出了人生最后一次尖叫。</p>
+<p>Walter:经历了姐姐Barbara的离去我患上精神疾病，在地下室不敢相信已经30年了，每天从头上行驶过的火车，提醒我又过了一天，我觉得我不能再这样下去了，我砸开墙壁走了出来，我能想像阳光照在我的脸上会有多么的舒服，我不介意自己只剩下一年的时间或者一个月或者仅仅一周，我将高兴的迎接新的一天。火车飞驰而来，我也该迈向终点。</p>
+<p>Calvin:我在秋千上荡呀荡越来越高，越来越高，终于我飞了起来，飞向2天空飞向大海。</p>
+<p>死亡，生活，梦想，一段生命的逝去，他们该迈向何处，。</p>
+
+            
         </div>
     </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
+        
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/%E6%B8%B8%E6%88%8F/" style="color: #00a596">游戏</a>
+        </span>
+        
+    </div>
+    <a href="/2023/08/13/%E6%8E%A2%E7%B4%A2/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2023/08/12/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F/">
+        <h2 class="post-title">游戏</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2023/8/12
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <p>在我的理解中什么才是一款好的游戏，我认为不一定需要有好的画质，以前第一款接触到的非常让人有感触的游戏叫《第一棵树》，英文名叫《The First Tree》，画质非常的拉跨。</p>
+<p>一款游戏怎样才能让人有感触呢？我觉得应该要贴近生活，《艾提芬奇的记忆》从一个女孩的视角讲述了他们家族的许多人，通过周围的场景来回忆，来了解他们。</p>
+<p>Molly：我太饿了，我从床上坐起，走向我老鼠宠物的笼子，我拿起宠物吃剩下的食物放进嘴里面，那一晚我吃了很多东西，牙膏，不知名果子，变成猫吃掉小鸟，变成猫头鹰吃掉兔子，变成怪兽吃掉人，最后我吃掉了自己。</p>
+<p>Barbara：我依靠我的尖叫成为了一个童星，16岁以后我的事业开始下滑无人问津，我的尖叫也没有当年，这一晚我的粉丝假扮了一场入室杀人情景，我依旧没有喊出我得以成名的尖叫，最后他们杀了我，我也喊出了人生最后一次尖叫。</p>
+<p>Walter:经历了姐姐Barbara的离去我患上精神疾病，在地下室不敢相信已经30年了，每天从头上行驶过的火车，提醒我又过了一天，我觉得我不能再这样下去了，我砸开墙壁走了出来，我能想像阳光照在我的脸上会有多么的舒服，我不介意自己只剩下一年的时间或者一个月或者仅仅一周，我将高兴的迎接新的一天。火车飞驰而来，我也该迈向终点。</p>
+<p>Calvin:我在秋千上荡呀荡越来越高，越来越高，终于我飞了起来，飞向2天空飞向大海。</p>
+<p>死亡，生活，梦想，一段生命的逝去，他们该迈向何处。</p>
+<p><img src="https://www.teambition.com/api/works/625cf2dfc5cdd5003f4f4f17/download/96776873_p0.jpg?signature=eyJhbGciOiJIUzI1NiJ9.eyJfd29ya0lkIjoiNjI1Y2YyZGZjNWNkZDUwMDNmNGY0ZjE3IiwiZmlsZUtleSI6IjMxMmdkOGNjMmViNzg1ZDhmZjU4MmYwNzY0MmQ0NDdjZmJjYyIsIl91c2VySWQiOiI1ZjkzYWM2ODgxZmJhNzE0NjdhYTBlNGEiLCJleHAiOjE2OTIwMTgwODMsInN0b3JhZ2UiOiJzdHJpa2VyLWh6In0.H3lWKSnhp2TXm6YuDVGKAB3uP4UAPVqGdrFzptIVAbo"></p>
+<p>技术支持@<a target="_blank" rel="noopener" href="https://xingchencloud.top/">xingchencloud.top</a></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2023/08/12/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E6%88%90%E5%8A%9F/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
+    <a href="/2021/01/24/hello-world/">
+        <h2 class="post-title">Hello World</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2021/1/24
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <h1 id="Hexo初始化原文（留恋）："><a href="#Hexo初始化原文（留恋）：" class="headerlink" title="Hexo初始化原文（留恋）："></a>Hexo初始化原文（留恋）：</h1><p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h1 id="汉化："><a href="#汉化：" class="headerlink" title="汉化："></a>汉化：</h1><p>欢迎来到 Hexo！ 这是你的第一篇文章。 检查文档以获取更多信息。 如果您在使用 Hexo 时遇到任何问题，可以在疑难解答中找到答案，也可以在 GitHub 上向我提问。</p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建一个新帖子"><a href="#创建一个新帖子" class="headerlink" title="创建一个新帖子"></a>创建一个新帖子</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new “我的新帖子”</span><br></pre></td></tr></table></figure>
+
+<p>更多信息：<a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">写作</a></p>
+<h2 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>更多信息：<a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">服务器</a></p>
+<h2 id="生成静态文件"><a href="#生成静态文件" class="headerlink" title="生成静态文件"></a>生成静态文件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>更多信息：<a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">生成</a></p>
+<h2 id="部署到远程站点"><a href="#部署到远程站点" class="headerlink" title="部署到远程站点"></a>部署到远程站点</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>更多信息：<a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">部署</a></p>
+
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        
+        
+    </div>
+    <a href="/2021/01/24/hello-world/" class="go-post">阅读全文</a>
 </div>
 
 
+        <div class="page-current">
+    
+    <span class="current">1</span>
+    
+    
+    
+    
+</div>
 
+    </div>
+    
+    <div id="home-card">
+        <div id="card-style">
+    <div id="card-div">
+        <div class="avatar">
+            <img src="/images/avatar.jpg" alt="avatar" />
+        </div>
+        <div class="name">太子</div>
+        <div class="description">
+            <p>Description<br>…</p>
 
+        </div>
+        
+        
+        <div class="friend-links">
+            
+            <div class="friend-link">
+                <a target="_blank" rel="noopener" href="https://github.com/Chinacyj">GitHub</a>
+            </div>
+            
+        </div>
+        
+    </div>
+</div>
 
+    </div>
+    
+</div>
 
+                <footer id="footer">
+    <div id="footer-wrap">
+        <div>
+            &copy;
+            2023 - 2023 满天繁星のblog
+            <span id="footer-icon">
+                <i class="fa-solid fa-font-awesome fa-fw"></i>
+            </span>
+            &commat;太子
+        </div>
+        <div>
+            Based on the <a target="_blank" rel="noopener" href="https://hexo.io">Hexo Engine</a> &amp;
+            <a target="_blank" rel="noopener" href="https://github.com/theme-particlex/hexo-theme-particlex">ParticleX Theme</a>
+        </div>
+        
+    </div>
+</footer>
+
+            </div>
+            
+            <transition name="fade">
+                <div id="preview" ref="preview" v-show="previewShow">
+                    <img id="preview-content" ref="previewContent" />
+                </div>
+            </transition>
+            
+        </div>
+        <script src="/js/main.js"></script>
+        
+    </body>
 </html>
