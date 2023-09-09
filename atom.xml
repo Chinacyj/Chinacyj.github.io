@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-08-23T13:41:40.369Z</updated>
+  <updated>2023-09-09T08:53:31.798Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Go语言从零开始学习</title>
+    <link href="https://blog.xingchencloud.top/2023/09/09/Go%E8%AF%AD%E8%A8%80%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://blog.xingchencloud.top/2023/09/09/Go%E8%AF%AD%E8%A8%80%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0/</id>
+    <published>2023-09-09T08:37:29.000Z</published>
+    <updated>2023-09-09T08:53:31.798Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;最近开始简单摸索Go-lang顺便记录一下入门吧。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Go-lang学习" scheme="https://blog.xingchencloud.top/categories/Go-lang%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Go-lang学习" scheme="https://blog.xingchencloud.top/tags/Go-lang%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
   
   <entry>
     <title>四大运营商正规大流量卡推荐</title>
@@ -490,31 +516,6 @@
     
     
     <category term="追番总结" scheme="https://blog.xingchencloud.top/tags/%E8%BF%BD%E7%95%AA%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>离别Chrome、Edge群</title>
-    <link href="https://blog.xingchencloud.top/2023/02/09/%E7%A6%BB%E5%88%ABChrome%E3%80%81Edge%E7%BE%A4/"/>
-    <id>https://blog.xingchencloud.top/2023/02/09/%E7%A6%BB%E5%88%ABChrome%E3%80%81Edge%E7%BE%A4/</id>
-    <published>2023-02-09T05:12:00.000Z</published>
-    <updated>2023-04-10T13:06:20.547Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;时光走的真快，留下了些什么？&quot;&gt;&lt;a href=&quot;#时光走的真快，留下了些什么？&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
-    
-    
-    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
     
   </entry>
   
