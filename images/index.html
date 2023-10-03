@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的照片相册</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <style>
+        body {
+            font-family: "阿里妈妈方圆体 VF Regular", sans-serif;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery div {
+            width: calc(33.33% - 10px);
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            transition: opacity 0.2s ease-in-out; /* 添加一个过渡效果 */
+        }
+        .gallery a {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.2s ease-in-out;
+        }
+        .gallery a:hover {
+            background-color: transparent;
+        }
+        .caption {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .caption h2 {
+            text-align: center;
+        }
+        @font-face {
+        font-family: "阿里妈妈方圆体 VF Regular";src: url("//at.alicdn.com/wf/webfont/ZG8Emle2eTR2/aHS1ZSYFMdm4.woff2") format("woff2"),
+        url("//at.alicdn.com/wf/webfont/ZG8Emle2eTR2/zypNktJE7t12.woff") format("woff");
+        font-display: swap;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">欢迎来到我的照片相册</h1>
+    <p style="text-align: center;">
+        相册，承载着我们人生中每一个美好瞬间的珍贵记忆。
+        <br>
+        博客，则记录着我们在成长道路上所经历的每一个精彩时刻，见证着我们人生中每一分每一秒的精彩瞬间。
+        <br>
+        <a href="blog.xingchencloud.top">点击这里进入我的博客</a>
+    </p>
+    <div class="gallery">
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(1).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(1).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(2).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(2).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(3).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(3).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(4).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(4).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(5).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(5).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(6).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(6).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(7).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(7).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(8).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(8).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(9).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(9).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(10).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(10).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(11).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(11).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(12).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(12).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(13).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(13).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(14).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(14).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(15).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(15).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(16).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(16).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(17).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(17).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(18).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(18).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(19).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(19).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(20).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(20).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(21).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(21).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(22).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(22).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(23).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(23).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(24).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(24).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(25).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(25).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(26).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(26).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(27).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(27).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(28).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(28).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(29).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(29).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(30).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(30).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(31).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(31).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(32).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(32).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(33).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(33).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(34).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(34).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(35).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(35).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(36).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(36).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(37).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(37).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(38).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(38).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(39).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(39).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(40).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(40).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(41).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(41).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(42).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(42).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(43).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(43).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(44).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(44).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(45).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(45).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(46).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(46).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(47).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(47).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(48).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(48).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(49).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(49).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(50).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(50).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(51).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(51).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(52).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(52).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(53).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(53).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(54).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(54).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(55).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(55).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(56).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(56).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(57).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(57).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(58).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(58).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(59).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(59).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(60).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(60).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(61).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(61).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(62).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(62).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(63).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(63).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(64).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(64).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(65).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(65).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(66).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(66).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(67).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(67).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(68).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(68).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(69).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(69).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(70).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(70).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(71).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(71).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(72).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(72).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(73).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(73).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(74).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(74).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(75).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(75).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(76).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(76).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(77).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(77).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(78).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(78).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(79).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(79).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(80).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(80).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(81).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(81).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(82).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(82).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(83).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(83).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(84).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(84).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(85).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(85).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(86).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(86).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(87).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(87).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(88).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(88).jpg">
+            </a>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <a href="https://images.xingchencloud.top/20231003%20(89).jpg" target="_blank">
+                <img src="https://images.xingchencloud.top/20231003%20(89).jpg">
+            </a>
+        </div>
+    </div>
+    <!-- 这里开始是视频啦 -->
+    <h1 style="text-align: center;">视频记录</h1>
+    <div class="gallery">
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(1).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+        
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(2).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(3).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(4).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(5).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(6).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(7).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(8).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(9).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+
+        <div>
+            <h4 style="text-align:center;">2023年10月03日国庆游永川动物园</h4>
+            <video src="https://images.xingchencloud.top/20231003%20(10).mp4" controls preload="metadata" width="100%">
+            </video>
+        </div>
+    </div>
+    
+    <script>
+        window.addEventListener('scroll', function() {
+            let gallery = document.getElementById('gallery');
+            let images = gallery.getElementsByTagName('img');
+            let bottom = gallery.getBoundingClientRect().bottom + window.innerHeight; // 获取页面底部的位置
+            // 如果滚动到接近页面底部，则加载图片
+            for (let i = 0; i < images.length; i++) {
+                if (images[i].getBoundingClientRect().top <= bottom) {
+                    images[i].src = images[i].dataset.src; // 假设你的数据集中存储了图片的真实地址
+                }
+            }
+        });
+
+        let links = gallery.getElementsByTagName('a');
+        for (let i = 0; i < links.length; i++) {
+            links[i].addEventListener('click', function(event) {
+                event.preventDefault(); // 防止链接的默认行为
+                let img = this.querySelector('img');
+                let src = img.getAttribute('src');
+                window.open(src, '_blank'); // 在新窗口中打开原始大小版本的图片
+            });
+        }
+    </script>
+    <script src="./xk.js"></script>
+</body>
+</html>
