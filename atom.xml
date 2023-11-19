@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-11-16T08:59:09.176Z</updated>
+  <updated>2023-11-19T03:17:04.488Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win11-23h2任务栏关闭Copilot</title>
+    <link href="https://blog.xingchencloud.top/2023/11/19/Win11-23h2%E4%BB%BB%E5%8A%A1%E6%A0%8F%E5%85%B3%E9%97%ADCopilot/"/>
+    <id>https://blog.xingchencloud.top/2023/11/19/Win11-23h2%E4%BB%BB%E5%8A%A1%E6%A0%8F%E5%85%B3%E9%97%ADCopilot/</id>
+    <published>2023-11-19T03:07:05.000Z</published>
+    <updated>2023-11-19T03:17:04.488Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;Win11</summary>
+        
+      
+    
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Python爬虫之bs4</title>
@@ -480,31 +505,6 @@
         
         
     <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;前段时间做的bing ai国内代理死了，由于微软的原因，api全部失效，现在转为使用open</summary>
-        
-      
-    
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>newbing-ai镜像开放使用</title>
-    <link href="https://blog.xingchencloud.top/2023/06/03/newbing-ai%E9%95%9C%E5%83%8F%E5%BC%80%E6%94%BE%E4%BD%BF%E7%94%A8/"/>
-    <id>https://blog.xingchencloud.top/2023/06/03/newbing-ai%E9%95%9C%E5%83%8F%E5%BC%80%E6%94%BE%E4%BD%BF%E7%94%A8/</id>
-    <published>2023-06-03T01:49:19.000Z</published>
-    <updated>2023-07-23T01:18:36.671Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;访问我的newbing镜像&quot;&gt;&lt;a href=&quot;#访问我的newbing镜像&quot; class=&quot;headerlink&quot;</summary>
         
       
     
