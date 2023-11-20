@@ -2843,6 +2843,9 @@ blockquote footer cite:before {
 blockquote > :last-child {
   margin-bottom: 0 !important;
 }
+.time_hidden {
+  display: none !important;
+}
 #single_top {
   padding: 1.875rem 1.5rem 0;
   max-width: 1400px;
@@ -4048,7 +4051,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 #statistic div span:last-child {
   font-weight: 700;
@@ -4096,7 +4099,7 @@ body[data-type='about'] #web_bg {
 }
 .author-content-item .card-content .banner-button-group .banner-button {
   height: 40px;
-  width: 140px;
+  width: 118px;
   border-radius: 20px;
   -webkit-box-pack: center;
   -moz-box-pack: center;
@@ -4104,8 +4107,8 @@ body[data-type='about'] #web_bg {
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
-  background: var(--anzhiyu-card-bg);
-  color: var(--font-color);
+  background: var(--anzhiyu-white-op);
+  color: var(--anzhiyu-white);
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -4126,18 +4129,26 @@ body[data-type='about'] #web_bg {
   transition: 0.3s;
   cursor: pointer;
   border-bottom: 0 !important;
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
 }
 .author-content-item .card-content .banner-button-group .banner-button i,
 .author-content-item .card-content .banner-button-group .banner-button svg {
-  font-size: 1rem;
+  margin-right: 0.25rem;
+  font-size: 22px;
 }
 .author-content-item .card-content .banner-button-group .banner-button .banner-button-text {
   margin-left: 4px;
 }
 #about-page .author-content-item .card-content .banner-button-group .banner-button i,
 #about-page .author-content-item .card-content .banner-button-group .banner-button svg {
-  font-size: 1.5rem;
-  margin-right: 0;
+  font-size: 22px;
+  margin-right: 0.25rem;
   height: 40px;
   max-width: 40px;
   display: -webkit-box;
@@ -4358,7 +4369,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
   line-height: 1;
   margin-bottom: 8px;
 }
@@ -4446,7 +4457,7 @@ body[data-type='about'] #web_bg {
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
-  font-size: 0.6rem;
+  font-size: 12px;
   margin-bottom: 0.5rem;
 }
 .author-content-item.maxim .maxim-title {
@@ -4797,10 +4808,11 @@ body[data-type='about'] #web_bg {
     background: none;
     padding: 0;
     width: auto;
+    backdrop-filter: unset;
   }
   .author-content-item .card-content .banner-button-group .banner-button i,
   .author-content-item .card-content .banner-button-group .banner-button svg {
-    margin-right: 0;
+    margin-right: 0.25rem;
     font-size: 1.5rem;
     background: #fff;
     border-radius: 50%;
@@ -4826,6 +4838,7 @@ body[data-type='about'] #web_bg {
     -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
+    color: var(--anzhiyu-fontcolor);
   }
   .author-content-item .card-content .banner-button-group .banner-button:hover i {
     background: var(--anzhiyu-background) !important;
@@ -6598,7 +6611,7 @@ body[data-type="link"] #page .page-title {
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .site-card-tag.speed {
   background: var(--anzhiyu-green);
@@ -6991,7 +7004,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
 }
 #recent-posts > .recent-post-item .unvisited-post:visited {
@@ -7019,7 +7032,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
   margin-right: 8px;
 }
@@ -7031,7 +7044,7 @@ body[data-type="link"] #page .page-title {
   display: box;
   display: flex;
   color: var(--anzhiyu-secondtext);
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   position: relative;
   margin-right: 8px;
 }
@@ -8455,7 +8468,7 @@ body:has(#console.show) #nav-music {
   color: var(--anzhiyu-lighttext);
 }
 #tag #tag-page-tags a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.9em;
 }
 #tag #tag-page-tags a:hover {
@@ -8464,9 +8477,6 @@ body:has(#console.show) #nav-music {
   color: var(--anzhiyu-white) !important;
   background: var(--anzhiyu-theme);
   border: var(--style-border-none);
-}
-#tag #tag-page-tags a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 span.tags-punctuation,
 span.categoryes-punctuation {
@@ -8477,7 +8487,7 @@ span.categoryes-punctuation .icon-biaoqian {
   font-size: 13px;
 }
 .tagsPageCount {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 [data-theme="light"] #post .tag_share .post-meta__box__tags span.tagsPageCount {
   background-color: transparent;
@@ -8770,7 +8780,7 @@ h1.page-title + .tag-cloud-list {
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
 }
 @media screen and (max-width: 768px) {
   #error-wrap .error-content .error-info {
@@ -10355,7 +10365,7 @@ h1.page-title + .tag-cloud-list {
 }
 #footer-wrap {
   position: relative;
-  padding: 40px 20px;
+  padding: 40px 20px 0;
   color: var(--light-grey);
   text-align: center;
 }
@@ -14771,7 +14781,7 @@ blockquote {
   border: var(--style-border-always);
 }
 .share-link .share-main .share-main-all .reward-dec {
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .post-tools .post-tools-left > div {
   margin: 0;
@@ -15005,7 +15015,7 @@ blockquote {
   font-weight: bold;
 }
 .post-reward .reward-main .reward-all .reward-main-btn .reward-dec {
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 .reward-link.mode {
   background: var(--anzhiyu-green);
@@ -19191,7 +19201,7 @@ p.p.gray {
 .read-mode {
   --font-color: #4c4948;
   --readmode-light-color: #fff;
-  --white: #4c4948;
+  --white: var(--anzhiyu-white);
   --light-grey: #4c4948;
   --gray: #d6dbdf;
   --hr-border: #d6dbdf;
@@ -19246,6 +19256,18 @@ p.p.gray {
 }
 .read-mode #aside-content {
   display: none;
+}
+.read-mode #post-firstinfo .meta-firstline a.post-meta-original {
+  color: var(--white) !important;
+}
+.read-mode #post-firstinfo .meta-firstline a.post-meta-categories {
+  color: var(--white) !important;
+}
+.read-mode #post-firstinfo .meta-firstline a.article-meta__tags {
+  color: var(--white) !important;
+}
+.read-mode #post-info #post-meta {
+  color: var(--white) !important;
 }
 .read-mode #page-header.post-bg {
   background-color: transparent;
@@ -20625,7 +20647,7 @@ body:has(.post-bg) #he-plugin-simple .s-sticker div {
   border: var(--style-border);
   box-shadow: none;
   margin: 0px 0px 0.5rem;
-  font-size: 0.6rem;
+  font-size: 12px;
   color: var(--anzhiyu-secondtext);
   border-radius: 8px;
 }
@@ -20971,7 +20993,7 @@ details .content > *:nth-child(1) {
 
 #console .author-content-item-tips {
   opacity: 0.8;
-  font-size: 0.6rem;
+  font-size: 12px;
   margin-bottom: 0.5rem;
   color: var(--font-color);
 }
@@ -22955,7 +22977,7 @@ a.categoryButton {
   transition: all 0.8s cubic-bezier(0.39, 0.575, 0.565, 1);
   transform: scale(1);
   overflow: hidden;
-  font-family: PingFang SC, Hiragino Sans GB, Microsoft YaHei;
+  font-family: inherit;
 }
 .categoryButtonText {
   padding-left: 21px;
@@ -23072,7 +23094,7 @@ span.top-group-text {
   background: var(--anzhiyu-theme);
   color: var(--anzhiyu-white);
   padding: 2px 8px;
-  font-size: 0.6rem;
+  font-size: 12px;
   border-radius: 12px 0 12px 0;
   transition: 0.3s;
   cursor: pointer;
@@ -23631,7 +23653,7 @@ div#swiper_container:hover {
 
 .topGroup .todayCard .todayCard-info .todayCard-tips {
   opacity: 0.8;
-  font-size: 0.6rem;
+  font-size: 12px;
 }
 
 .topGroup .todayCard .todayCard-info .todayCard-title {
@@ -23675,7 +23697,7 @@ div#swiper_container:hover {
   -webkit-backdrop-filter: blur(20px);
   transform: translateZ(0);
   height: 40px;
-  width: 130px;
+  width: 118px;
   justify-content: center;
 }
 .topGroup .banner-button i,
@@ -23751,7 +23773,7 @@ div#swiper_container:hover {
   background: var(--anzhiyu-theme);
   color: var(--anzhiyu-white);
   padding: 2px 8px;
-  font-size: 0.6rem;
+  font-size: 12px;
   border-radius: 12px 0 12px 0;
   transition: 0.3s;
   cursor: pointer;
@@ -26927,7 +26949,7 @@ div#runtime {
 #article-container .tag-Link .tag-link-tips {
   border-bottom: var(--style-border);
   padding-bottom: 4px;
-  font-size: 0.6rem;
+  font-size: 12px;
   color: var(--anzhiyu-gray);
   font-weight: normal;
 }
