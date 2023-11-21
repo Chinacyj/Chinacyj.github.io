@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-11-20T06:36:42.484Z</updated>
+  <updated>2023-11-21T08:02:15.912Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二-数据库设计</title>
+    <link href="https://blog.xingchencloud.top/2023/11/21/%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/"/>
+    <id>https://blog.xingchencloud.top/2023/11/21/%E4%BA%8C-%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</id>
+    <published>2023-11-21T07:57:44.000Z</published>
+    <updated>2023-11-21T08:02:15.912Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;概念&quot;&gt;&lt;a href=&quot;#概念&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库技术" scheme="https://blog.xingchencloud.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="数据库技术" scheme="https://blog.xingchencloud.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>一-认识数据库</title>
@@ -480,31 +505,6 @@
         
     <summary type="html">&lt;h1 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h1&gt;&lt;p&gt;MT管理器（会员最好）、需要修改的app&lt;/p&gt;
 &lt;h2 id=&quot;教程视频版&quot;&gt;&lt;a href=&quot;#教程视频版&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解锁下载的音乐加密格式</title>
-    <link href="https://blog.xingchencloud.top/2023/07/24/%E8%A7%A3%E9%94%81%E4%B8%8B%E8%BD%BD%E7%9A%84%E9%9F%B3%E4%B9%90%E5%8A%A0%E5%AF%86%E6%A0%BC%E5%BC%8F/"/>
-    <id>https://blog.xingchencloud.top/2023/07/24/%E8%A7%A3%E9%94%81%E4%B8%8B%E8%BD%BD%E7%9A%84%E9%9F%B3%E4%B9%90%E5%8A%A0%E5%AF%86%E6%A0%BC%E5%BC%8F/</id>
-    <published>2023-07-24T01:28:22.000Z</published>
-    <updated>2023-08-05T01:31:58.242Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
