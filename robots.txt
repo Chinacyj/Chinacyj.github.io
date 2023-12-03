@@ -2,4 +2,4 @@
 # 请文明使用爬虫！
 #
 User-agent: *
-Disallow: other
+Disallow: 
