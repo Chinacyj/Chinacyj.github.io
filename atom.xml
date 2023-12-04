@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-12-03T08:14:59.272Z</updated>
+  <updated>2023-12-04T10:12:52.081Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>MySQL基本命令</title>
+    <link href="https://blog.xingchencloud.top/p/94ef61b.html"/>
+    <id>https://blog.xingchencloud.top/p/94ef61b.html</id>
+    <published>2023-12-04T10:08:09.000Z</published>
+    <updated>2023-12-04T10:12:52.081Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;以下是一些MySQL数据库的基本命令&quot;&gt;&lt;a href=&quot;#以下是一些MySQL数据库的基本命令&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="数据库技术" scheme="https://blog.xingchencloud.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="数据库技术" scheme="https://blog.xingchencloud.top/tags/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>免费+实惠大厂CDN推荐</title>
     <link href="https://blog.xingchencloud.top/p/751d3a41.html"/>
     <id>https://blog.xingchencloud.top/p/751d3a41.html</id>
     <published>2023-12-03T08:09:05.000Z</published>
-    <updated>2023-12-03T08:14:59.272Z</updated>
+    <updated>2023-12-03T08:15:25.482Z</updated>
     
     
       
@@ -480,32 +505,6 @@
         
         
     <summary type="html">&lt;h2 id=&quot;视频教程&quot;&gt;&lt;a href=&quot;#视频教程&quot; class=&quot;headerlink&quot; title=&quot;视频教程&quot;&gt;&lt;/a&gt;视频教程&lt;/h2&gt;&lt;p&gt;&lt;video controls=&quot;controls&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="技术教程" scheme="https://blog.xingchencloud.top/tags/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>迅龙系列【实战年度总结篇】</title>
-    <link href="https://blog.xingchencloud.top/p/8517c931.html"/>
-    <id>https://blog.xingchencloud.top/p/8517c931.html</id>
-    <published>2023-08-16T13:31:58.000Z</published>
-    <updated>2023-11-25T14:28:26.247Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;strong&gt;作者：逆向林哥，本站仅授权提供存储预览服务&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;视频教程&quot;&gt;&lt;a href=&quot;#视频教程&quot; class=&quot;headerlink&quot; title=&quot;视频教程&quot;&gt;&lt;/a&gt;视频教程&lt;/h2&gt;&lt;p&gt;&lt;video</summary>
         
       
     
