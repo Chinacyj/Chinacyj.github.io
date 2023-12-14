@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-12-07T09:10:59.294Z</updated>
+  <updated>2023-12-14T04:01:18.338Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python bs4爬虫笔趣阁实战</title>
+    <link href="https://blog.xingchencloud.top/p/c20ce0f.html"/>
+    <id>https://blog.xingchencloud.top/p/c20ce0f.html</id>
+    <published>2023-12-14T03:34:29.000Z</published>
+    <updated>2023-12-14T04:01:18.338Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;前面一篇笔记记录了Python如何安装bs4模块，以及简单的bs4爬取重庆能源职业学院新闻中心页面所有url。&lt;/p&gt;
+&lt;p&gt;详见：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/tags/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>工信部网络安全工程师考试结束！</title>
@@ -492,32 +518,6 @@
     
     
     <category term="公告" scheme="https://blog.xingchencloud.top/tags/%E5%85%AC%E5%91%8A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Go语言从零开始学习</title>
-    <link href="https://blog.xingchencloud.top/p/58ac47f1.html"/>
-    <id>https://blog.xingchencloud.top/p/58ac47f1.html</id>
-    <published>2023-09-09T08:37:29.000Z</published>
-    <updated>2023-11-25T14:28:26.198Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;最近开始简单摸索Go-lang顺便记录一下入门吧。&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;环境配置&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Go-lang学习" scheme="https://blog.xingchencloud.top/categories/Go-lang%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Go-lang学习" scheme="https://blog.xingchencloud.top/tags/Go-lang%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
