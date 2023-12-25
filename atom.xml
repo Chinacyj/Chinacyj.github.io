@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2023-12-24T09:56:07.576Z</updated>
+  <updated>2023-12-25T06:05:25.030Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python爬虫bs4+WebDriver自动化控制浏览器模拟真实请求</title>
+    <link href="https://blog.xingchencloud.top/p/ef44a69a.html"/>
+    <id>https://blog.xingchencloud.top/p/ef44a69a.html</id>
+    <published>2023-12-25T05:41:15.000Z</published>
+    <updated>2023-12-25T06:05:25.030Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在前面是实战中，我们都是爬取的没有人机校验机制的网站，如果遇到有人机验证的网站是无法爬取的，具体我们在bs4基础上，增加Web</summary>
+        
+      
+    
+    
+    
+    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/tags/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Windows上优雅的使用neofetch</title>
@@ -492,31 +517,6 @@
     
     
     <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/tags/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用noMeiryoUI修改系统字体</title>
-    <link href="https://blog.xingchencloud.top/p/a8fd3792.html"/>
-    <id>https://blog.xingchencloud.top/p/a8fd3792.html</id>
-    <published>2023-10-03T15:45:53.000Z</published>
-    <updated>2023-11-25T14:28:26.221Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="软件教程" scheme="https://blog.xingchencloud.top/categories/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
