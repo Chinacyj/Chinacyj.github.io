@@ -6,7 +6,7 @@
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
-  <updated>2024-02-27T07:34:29.692Z</updated>
+  <updated>2024-03-14T13:11:34.007Z</updated>
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第十四届大学生挑战杯记录</title>
+    <link href="https://blog.xingchencloud.top/p/36ac9eba.html"/>
+    <id>https://blog.xingchencloud.top/p/36ac9eba.html</id>
+    <published>2024-03-14T12:53:32.000Z</published>
+    <updated>2024-03-14T13:11:34.007Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言最近没有更新博客，忙着备赛去了&quot;&gt;&lt;a href=&quot;#前言最近没有更新博客，忙着备赛去了&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/categories/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+    
+    <category term="心晴日迹" scheme="https://blog.xingchencloud.top/tags/%E5%BF%83%E6%99%B4%E6%97%A5%E8%BF%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>19岁了：回望成长的里程碑与对未来的展望</title>
@@ -492,31 +517,6 @@
     
     
     <category term="软件教程" scheme="https://blog.xingchencloud.top/tags/%E8%BD%AF%E4%BB%B6%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python爬虫之bs4</title>
-    <link href="https://blog.xingchencloud.top/p/2ce22e0a.html"/>
-    <id>https://blog.xingchencloud.top/p/2ce22e0a.html</id>
-    <published>2023-11-16T08:44:37.000Z</published>
-    <updated>2023-11-25T14:28:26.208Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;Python爬虫之bs4，非常详细&quot;&gt;&lt;a href=&quot;#Python爬虫之bs4，非常详细&quot; class=&quot;headerlink&quot; title=&quot;Python爬虫之bs4，非常详细&quot;&gt;&lt;/a&gt;Python爬虫之bs4，非常详细&lt;/h1&gt;&lt;p&gt;bs4 全名</summary>
-        
-      
-    
-    
-    
-    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/categories/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="Python学习笔记" scheme="https://blog.xingchencloud.top/tags/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
