@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>星尘の小站</title>
+  <title>消逝のblog</title>
   
-  <subtitle>热爱无界！</subtitle>
+  <subtitle>学习！</subtitle>
   <link href="https://blog.xingchencloud.top/atom.xml" rel="self"/>
   
   <link href="https://blog.xingchencloud.top/"/>
@@ -10,7 +10,7 @@
   <id>https://blog.xingchencloud.top/</id>
   
   <author>
-    <name>叶玖洛-星尘</name>
+    <name>岁桉</name>
     
   </author>
   
